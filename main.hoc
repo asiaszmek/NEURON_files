@@ -1,0 +1,17 @@
+load_file("cell_main.hoc")
+load_file("syn.hoc")
+para_read("params.txt)		// can be adjusted in line 350
+syn_set_col4(150,5,200,10,10,250)
+stim.dur=9050
+init() // test whether the model init into steady state 
+
+// soma calcium channel characteristics
+soma insert cal0
+soma insert cad
+vhalf_n_cal0=-15
+slope_n_cal0=-4.98
+n_gate_cal0=2
+hill_c_cal0=1
+depth_cad=1
+K_c_cal0=0.002
+run()
