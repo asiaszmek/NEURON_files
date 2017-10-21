@@ -1,0 +1,2 @@
+These are supplement files for the NEURON model used in my PLoSCB 2017 manuscript.<br>
+To run the model, type `nrngui` in commandline to run the NEURON simulator. Type in or copy paste the command from main.hoc line by line. So you can visualize the voltage from soma section.
